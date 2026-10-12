@@ -1,0 +1,77 @@
+TRAZENDO · PORTFÓLIO PESSOAL
+
+Abra index.html no navegador depois de extrair o ZIP.
+O projeto usa apenas HTML, CSS, JavaScript e uma imagem SVG local.
+Não precisa instalar nada, usar frameworks ou executar compilação.
+
+ARQUIVOS
+index.html: conteúdo, ícones, barra lateral e modelo de projeto.
+style.css: cores, layout, responsividade e efeito de luz.
+script.js: dados dos projetos, menu, seção ativa e movimento da luz.
+imagens/wordloom.svg: ilustração da interface (não é captura de tela).
+.nojekyll: arquivo vazio que desativa o processamento pelo Jekyll no GitHub Pages.
+
+REDES SOCIAIS
+No index.html, procure o comentário "Substitua href...".
+O GitHub já está configurado como https://github.com/trazendo.
+Instagram e LinkedIn estão com href="#".
+Troque o # pela URL do seu perfil quando quiser.
+O JavaScript só ignora os links cujo endereço continua sendo #.
+
+ADICIONAR UM PROJETO
+No começo de script.js, acrescente um objeto à lista "projetos".
+Separe os objetos com vírgula. Modelo para um projeto sem site:
+
+    {
+        id: "nome-do-projeto",
+        nome: "Nome do projeto",
+        descricao: "Descrição curta.",
+        status: "Projeto pessoal",
+        tipo: "FERRAMENTA",
+        tecnologias: ["JavaScript"],
+        imagem: "",
+        imagemAlt: "",
+        contexto: "Uma explicação curta sobre a origem do projeto.",
+        recursos: ["Principal recurso."],
+        site: "",
+        github: "https://github.com/trazendo/nome-do-repositorio"
+    }
+
+id: deve ser único, sem espaços; prefira letras minúsculas e hífens.
+site: se estiver vazio, o botão Ver site não aparece.
+imagem: se estiver vazio, aparece uma prévia genérica com o símbolo </>.
+contexto: se estiver vazio, a área Como surgiu não aparece.
+O contador de projetos e os atalhos laterais são atualizados automaticamente.
+
+EDITAR APRESENTAÇÃO E ESTUDOS
+Os textos ficam no index.html, nas seções inicio, estudos e sobre.
+Você pode trocar a seção Em estudo por Experiência quando fizer sentido.
+Nesse caso, ajuste também o rótulo do link correspondente na barra lateral.
+O site mantém o pseudônimo sem informar nome civil, instituição ou localização.
+
+EDITAR VISUAL
+No início do style.css, as variáveis definem fundo, texto, bordas e cores.
+O efeito do cursor está no bloco 5 do script.js e em body::before no CSS.
+Ele respeita a preferência do sistema por menos movimento.
+
+BARRA LATERAL
+Serve como índice de seções e coleção de atalhos para projetos.
+O botão no topo recolhe a barra no computador e abre o menu no celular.
+No celular, toque fora do menu ou use Esc para fechar.
+
+PUBLICAR
+Use o repositório trazendo.github.io.
+Envie index.html, style.css, script.js, .nojekyll e a pasta imagens para a raiz.
+A pasta imagens precisa manter seu nome para que a prévia seja carregada.
+O index.html deve aparecer diretamente na página principal do repositório.
+Em Settings > Pages, use Deploy from a branch, main, / (root).
+Confirme as alterações com Commit changes e aguarde a publicação.
+
+COMPATIBILIDADE COM GITHUB PAGES
+O index.html fica na raiz e usa caminhos relativos para os arquivos locais.
+Todos os efeitos e interações rodam no navegador, com JavaScript.
+O site não precisa de servidor de aplicação, banco de dados ou compilação.
+JavaScript no navegador é compatível com hospedagem estática.
+
+O site não coleta informações nem depende de serviços externos para funcionar.
+Os links dos projetos e do GitHub abrem em uma nova aba.

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="430" viewBox="0 0 680 430" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">WordLoom</title>
+  <desc id="descricao">Ilustração da ferramenta de escrita com editor, contador de palavras e botões.</desc>
+  <defs><clipPath id="cantos"><rect width="680" height="430" rx="9"/></clipPath></defs>
+  <g clip-path="url(#cantos)">
+    <rect width="680" height="430" fill="#f9f7f2"/>
+    <rect width="680" height="34" fill="#eae8e2"/>
+    <circle cx="18" cy="17" r="4" fill="#c78688"/><circle cx="33" cy="17" r="4" fill="#c9b181"/><circle cx="48" cy="17" r="4" fill="#91a697"/>
+    <rect x="260" y="10" width="160" height="14" rx="4" fill="#deddd7"/>
+    <text x="340" y="20" text-anchor="middle" fill="#72736e" font-size="8" font-family="Arial,sans-serif">WordLoom · espaço de escrita</text>
+    <text x="42" y="74" fill="#323333" font-size="18" font-weight="700" font-family="Arial,sans-serif">Word Loom</text>
+    <text x="444" y="72" fill="#74746e" font-size="9" font-family="Arial,sans-serif">Escrever</text><text x="506" y="72" fill="#74746e" font-size="9" font-family="Arial,sans-serif">Metas</text><text x="565" y="72" fill="#74746e" font-size="9" font-family="Arial,sans-serif">Sobre</text>
+    <path d="M42 91h596" stroke="#e0dfd8"/>
+    <text x="340" y="127" text-anchor="middle" fill="#30312e" font-size="17" font-weight="600" font-family="Arial,sans-serif">Espaço de Criação</text>
+    <g font-family="Arial,sans-serif" font-size="9" fill="#494b45">
+      <rect x="165" y="147" width="64" height="29" rx="4" fill="#fff"/><text x="184" y="165">100%</text><path d="m212 159 3 3 3-3" fill="none" stroke="#777"/>
+      <rect x="239" y="147" width="125" height="29" rx="4" fill="#fff"/><text x="262" y="165">Baixar texto (.txt)</text>
+      <rect x="374" y="147" width="139" height="29" rx="4" fill="#fff"/><text x="396" y="165">Apagar Texto Salvo</text>
+    </g>
+    <text x="340" y="199" text-anchor="middle" fill="#898a82" font-family="Arial,sans-serif" font-size="9">Palavras Escritas: 0</text>
+    <rect x="116" y="217" width="448" height="230" rx="1" fill="#e4e1d9"/>
+    <rect x="119" y="214" width="442" height="232" rx="1" fill="#fff"/>
+    <path d="M177 271v16" stroke="#8c9cb2" stroke-width="1.5"/>
+    <path d="M189 276h201M177 300h311M177 324h289M177 348h310M177 372h180" stroke="#eeeef0" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
